@@ -21,7 +21,7 @@ body {
     padding: 0;
     margin: 0;
     display: flex;
-    justify-content: center; /* Centers items horizontally */
+    justify-content: center;
 }
 
 .ulen li {
@@ -98,15 +98,15 @@ body {
 }
 
 footer {
-    background-color: #888; /* Barva pozadí */
-    color: #001; /* Barva textu */
-    padding: 0px 0px; /* Vnitřní mezery nahoře a dole */
+    background-color: #888;
+    color: #001;
+    padding: 0px 0px;
     text-align: center;
 }
 
 .footer-content {
-    max-width: 1200px; /* Maximální šířka obsahu patičky */
-    margin: 0 auto; /* Vycentrování obsahu */
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 0 20px;
 }
 
@@ -115,8 +115,8 @@ footer {
     padding: 0;
     margin: 10px 0 0;
     display: flex;
-    justify-content: right; /* Vycentrování odkazů */
-    gap: 20px; /* Mezery mezi odkazy */
+    justify-content: right;
+    gap: 20px;
 }
 
 .footer-links li a {
