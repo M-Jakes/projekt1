@@ -6,7 +6,7 @@
 
 body {
     color: #000000;
-    background: #f8f9fa;
+    background: #fdfeff;
 }
 
 .header {
@@ -16,7 +16,7 @@ body {
 }
 
 
-.navbar ul {
+.ulen ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -24,19 +24,20 @@ body {
     justify-content: center; /* Centers items horizontally */
 }
 
-.navbar li {
+.ulen li {
     margin-right: 50px;
 }
 
-.navbar li:last-child {
+.ulen li:last-child {
     margin-right: 0;
 }
 
 .koko {
     justify-content: center;
     align-content: center;
+    font-size: 40px;
+    color: orange;
 }
-
 
 .algebra div {
     display: flex;
@@ -49,6 +50,7 @@ body {
     font-size: 16px;
     border: none;
     cursor: pointer;
+    justify-content: center;
 }
 
 .algebra button a {
@@ -56,15 +58,100 @@ body {
     color: inherit;
 }
 
-.navabar {
+.navbar {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
 }
+
 .aliana {
     display: flex;
     justify-content: center;
     padding-top: 80px;
+}
+
+.helen {
+    list-style-type: none;
+    padding-right: 400px;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+.elia {
+    list-style-type: none;
+    padding-right: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.olana {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+footer {
+    background-color: #888; /* Barva pozadí */
+    color: #001; /* Barva textu */
+    padding: 0px 0px; /* Vnitřní mezery nahoře a dole */
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px; /* Maximální šířka obsahu patičky */
+    margin: 0 auto; /* Vycentrování obsahu */
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: right; /* Vycentrování odkazů */
+    gap: 20px; /* Mezery mezi odkazy */
+}
+
+.footer-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links li a:hover {
+    text-decoration: underline;
+}
+
+.refera div {
+    display: flex;
+    justify-content: center;
+}
+
+.refera button {
+    margin-left: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.refera button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.geola {
+    list-style-type: none;
+    padding-top: 0;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+
 }
